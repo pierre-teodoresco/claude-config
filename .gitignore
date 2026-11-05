@@ -1,0 +1,16 @@
+# Liste blanche : tout est ignoré sauf la config versionnée.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/keybindings.json
+!/agents/
+!/guidelines/
+!/hooks/
+!/plans/
+!/skills/
+/skills/synced/
+!/projects/
+/projects/*/*
+!/projects/*/memory/
+hooks/autosync.log

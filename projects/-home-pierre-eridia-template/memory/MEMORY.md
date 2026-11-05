@@ -1,0 +1,2 @@
+- [Devbox DB migrations](devbox-db-migrations.md) — apply SQL files by hand, never migrate:run/drizzle push (ERI-57, RLS)
+- [Prod server runs migrations](devbox-prod-server-runs-migrations.md) — never start a prod build (server.mjs/next start) on the shared DB: boot runs drizzle-kit push + workers

@@ -1,0 +1,24 @@
+{
+  "enabledPlugins": {
+    "code-review-anthropics@anthropic-plugin-directory": true,
+    "superpowers@anthropic-plugin-directory": true
+  },
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "theme": "dark",
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/autosync.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
